@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANGLA SUB STUDIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- হেডার সেকশন (স্ক্রল করলেও ওপরে থাকবে) -->
+    <header class="sticky-header">
+        <div class="header-content">
+            <h1 class="logo">BANGLA SUB STUDIO</h1>
+            <div class="profile-icon">
+                <img src="https://via.placeholder.com/40" alt="Profile" onclick="login()">
+            </div>
+        </div>
+    </header>
+
+    <!-- মেইন কন্টেন্ট -->
+    <main>
+        <!-- প্রথম ইমেজ সেকশন -->
+        <section class="image-section">
+            <img src="images/bg.png" alt="Anime Image 1">
+        </section>
+
+        <!-- দ্বিতীয় ইমেজ সেকশন -->
+        <section class="image-section">
+            <img src="images/second.png" alt="Anime Image 2">
+        </section>
+
+        <!-- বাটন সেকশন -->
+        <section class="buttons">
+            <button onclick="openPremiumPage()">Premium Group Form</button>
+            <button onclick="goToTelegram('mahdibhsh')">Free Anime</button>
+            <button onclick="goToTelegram('hsnsgsmgsk')">Report</button>
+        </section>
+    </main>
+
+    <!-- ফুটার -->
+    <footer>
+        <a href="#">Privacy Policy</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Developer</a>
+        <a href="#">Designer</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
